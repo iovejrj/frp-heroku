@@ -17,4 +17,4 @@ RUN wget https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/frp_$
 RUN rm -rf /var/cache/apk/*
 
 CMD /entrypoint.sh
-EXPOSE 80 7000 7001 7500
+EXPOSE 80 7000 7001 7500 10080 10443
